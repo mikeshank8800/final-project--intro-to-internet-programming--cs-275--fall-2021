@@ -1,0 +1,102 @@
+body {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  font-family: Lora, serif;
+  line-height: 38.4px;
+}
+
+td {
+  vertical-align: top;
+}
+
+h2 {
+  font-size: 16px;
+  color: black;
+  font-family: 'PT Serif', serif;
+  padding-right: 15px;
+  line-height: 18px;
+  padding-top: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+  font-family: 'PT Serif', serif;
+  padding-right: 70px;
+  line-height: 18px;
+}
+
+picture {
+  float: left;
+  padding: 18px 15px;
+}
+
+.left {
+  left: 0;
+  position: absolute;
+  background-color: white;
+  top: 40%;
+  z-index: 10;
+}
+
+.right {
+  right: 0;
+  position: absolute;
+  background-color: white;
+  top: 40%;
+}
+
+.original {
+  position: absolute;
+}
+
+.red {
+  position: absolute;
+}
+
+.green {
+  position: absolute;
+}
+
+.blue {
+  position: absolute;
+}
+
+.black {
+  position: absolute;
+}
+
+.slide {
+  position: relative;
+  margin: auto;
+  height: 300px;
+  width: 600px;
+  background: #f2f2f2;
+  align-items: center;
+  overflow: hidden;
+}
+
+.startPosition {
+  transform: translateX(150%);
+}
+
+.previousSlide {
+  transform: translateX(150%);
+  transition: transform 1s ease-in-out;
+}
+
+.nextSlide {
+  transform: translateX(-150%);
+  transition: transform 1s ease-in-out;
+}
+
+.currentSlide {
+  transform: translateX(0%);
+  transition: transform 1s ease-in-out;
+}
